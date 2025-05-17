@@ -1,0 +1,19 @@
+# Игнорируем node_modules, потому что зависимости устанавливаются внутри контейнера
+node_modules
+npm-debug.log
+.dockerignore
+.git
+.gitignore
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Игнорируем редакторские файлы
+.vscode
+.idea
+
+# Игнорируем временные файлы
+*.swp
+*.swo
+*.log
